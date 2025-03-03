@@ -1,0 +1,175 @@
+@import "tailwindcss";
+/* Global styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+@theme {
+    --color-lighter-peach: #ffe9e9;
+    --color-light-peach: #FFD0CB;
+    --color-peach: #f6a69f;
+}
+
+
+/* styles/form.css */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.main-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 24rem;
+    border: 3px solid #f6a69f;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.form-input:focus {
+    border-color: #FFD0CB;
+    box-shadow: 0 0 0 1px rgb(255, 208, 203);
+}
+
+.form-error {
+    color: #f56f6f;
+    font-size: 0.875rem;
+}
+
+.form-button {
+    width: 100%;
+    background-color: #f6a69f;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    text-align: center;
+    font-weight: 400;
+    transition: background-color 0.2s;
+    margin-top: 0.25rem;
+}
+
+.form-button:hover {
+    background-color: #fc9e96;
+}
+
+.flashcard-main-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* General Styles */
+.flashcard-container {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flashcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: transform 0.6s;
+    height: 200px;
+}
+
+.flashcard .flashcard-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.flashcard.flip .flashcard-content {
+    transform: rotateY(180deg);
+}
+
+.flashcard-question,
+.flashcard-answer {
+    font-size: 18px;
+    font-weight: 500;
+    backface-visibility: hidden;
+}
+
+.flashcard-question {
+    display: block;
+}
+
+.flashcard-answer {
+    display: block;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+/* Navigation Buttons */
+.flashcard-button {
+    padding: 10px 15px;
+    background-color: transparent; /* Peach color */
+    color: #f6a69f;
+    border: 2px solid #f6a69f;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.flashcard-button:hover {
+    background-color: #f6a69f;
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #f6a69f; /* Peach color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0796f;
+}
