@@ -124,4 +124,4 @@ Ensure you have the following installed on your system:
 - **AI integration** – Use AI to create flashcards from the uploaded notes. Use AI for summarization of chat, uploaded notes and add a feature to chat with AI as well.
 
 **Author:** Jaya Sravani Sirigineedi\
-**Project Origin:** Submitted the project's initial version in PearlsHack2025 with a group.
+**Project Origin:** Submitted the project's initial version in PearlHacks2025 with a group.
