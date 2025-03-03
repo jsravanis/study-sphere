@@ -4,11 +4,30 @@ StudySphere is a web application designed to help students create and manage stu
 
 ## Features
 
-- **User Authentication** – Login & Signup using JWT Authentication and CORS
+**User Authentication** – Login & Signup using JWT Authentication and CORS
+
+<img src="assets/screenshots/login.png" alt="Login Page" style="width:300px; height:auto;"> <img src="assets/screenshots/signup.png" alt="Signup Page" style="width:300px; height:auto;">
+
+<img src="assets/screenshots/user-dashboard-with-req.png" alt="User Dashboard Page" style="width:300px; height:auto;"> <img src="assets/screenshots/user-dashboard.png" alt="User Dashboard Page" style="width:300px; height:auto;">
+
 - **Study Group Management** – Create and join study groups
+
+<img src="assets/screenshots/sg-dashboard.png" alt="Study Group Page" style="width:300px; height:auto;"> <img src="assets/screenshots/view-public-groups.png" alt="View Public Groups Page" style="width:300px; height:auto;">
+<img src="assets/screenshots/create-sg.png" alt="Create Study Group Page" style="width:300px; height:auto;">
+
 - **Real-Time Chat** – WebSockets using the STOMP protocol
+
+<img src="assets/screenshots/sg-realtime-chat.png" alt="Study Group Chat Page" style="width:300px; height:auto;">
+
 - **File Sharing** – Upload, view, and download study materials (PDFs)
+
+<img src="assets/screenshots/sg-share-notes.png" alt="Study Group Notes Page" style="width:300px; height:auto;">
+
 - **Flashcards** – Create and review flashcards for study groups
+
+<img src="assets/screenshots/flashcards.png" alt="Study Group Flash Cards Page" style="width:300px; height:auto;">
+
+
 
 ## Tech Stack
 
